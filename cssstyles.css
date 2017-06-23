@@ -11,7 +11,7 @@
 }
 
 .fijiBg {
-    background: url(https://nsapoznikova.github.io/codingprojects/fiji-image-4.jpg) no-repeat center center fixed;
+    background: url("https://nsapoznikova.github.io/codingprojects/fiji-image-4.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 280px;
@@ -233,7 +233,7 @@ li {
 }
 
 .fijiMapClass {
-    background: url(https://nsapoznikova.github.io/codingprojects/fiji_map.jpg);
+    background: url("https://nsapoznikova.github.io/codingprojects/fiji_map.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 280px;
@@ -257,7 +257,7 @@ li {
 }
 
 .fijiBookingClass {
-    background: url(https://nsapoznikova.github.io/codingprojects/fiji_booking_form.jpg);
+    background: url("https://nsapoznikova.github.io/codingprojects/fiji_booking_form.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -408,7 +408,7 @@ li {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(https://nsapoznikova.github.io/codingprojects/fiji-image-4-blur.png) no-repeat center center fixed;
+    background: url("https://nsapoznikova.github.io/codingprojects/fiji-image-4-blur.png") no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
