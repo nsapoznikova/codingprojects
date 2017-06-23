@@ -1,0 +1,481 @@
+.phoneNumber {
+    margin-right: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    float: right !important;
+}
+
+.headerNewStyle {
+    float: left;
+    margin-left: 0 !important;
+}
+
+.fijiBg {
+    background: url(fiji-image-4.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 260px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.fijiBg h1 {
+    color: white;
+    font-size: 84px;
+    text-shadow: 2px 2px 12px #000;
+}
+
+.fijiBg p {
+    color: white;
+}
+
+.logoClass {
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.buttonNewStyle {
+    background-color: #df0079 !important;
+    border: none;
+    border-radius: 0;
+    font-size: 23px;
+    padding: 14px 22px;
+}
+
+.buttonNewStyle:hover {
+    background-color: #b00d65 !important;
+}
+
+.newContainerDesign {
+    background-color: white;
+    opacity: 0.4;
+}
+
+.rowNewStyle {
+    margin-top: 73px;
+}
+
+.colNewStyle img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colNewStyle h2 {
+    text-align: center;
+}
+
+.colNewStyle p {
+    text-align: center;
+}
+
+.rowBgStyle {
+    max-width: 100%;
+    background-color: red;
+}
+
+.thumbnail img {
+    background-size: cover;
+}
+
+@media (max-width: 460px) {
+    .phoneNumber {
+        float: none !important;
+        text-align: center;
+        margin-bottom: 14px;
+        margin-top: 0;
+    }
+
+    .headerNewStyle {
+        float: none !important;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: -15px !important;
+    }
+
+    .fijiBg {
+        padding-bottom: 77px;
+    }
+
+    .fijiBg h1 {
+        font-size: 64px;
+    }
+
+    .bg-nav-new .phoneNumber {
+        float: none !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .newFffStyle {
+        margin-bottom: 50px;
+    }
+
+    .fijiBookingClass {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+.caption h4 {
+    color: #444;
+}
+
+.caption p {
+    color: #999;
+}
+
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+
+.carousel-inner>.item {
+    padding: 10px;
+}
+
+.carousel .thumbnails {
+    padding-left: 0;
+}
+
+.thumbnail {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 767px) {
+    .page-header,
+    .control-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+::selection {
+    background: #ff5e99;
+    color: #FFFFFF;
+    text-shadow: 0;
+}
+
+::-moz-selection {
+    background: #ff5e99;
+    color: #FFFFFF;
+}
+
+.mainSlaiderContainer {
+    background-color: #f1f1f1;
+    margin-top: 70px;
+}
+
+.toursHeadingStyle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.btn-mini {
+    background-color: #df0079;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 8px 16px;
+    color: white;
+}
+
+.btn-mini:hover {
+    background-color: #f40084;
+    color: white;
+}
+
+.caption p {
+    font-size: 18px;
+}
+
+.sliderContainerNewStyle {
+    padding-bottom: 60px;
+}
+
+.pager li>a:hover {
+    background-color: #E0E0E0;
+}
+
+.pager li>a {
+    color: #505050;
+}
+
+.fijiMapClass img {
+    background-size: cover;
+    width: 100%;
+}
+
+.fijiMapClass {
+    padding-left: 0;
+    padding-right: 0;
+    cursor: default;
+}
+
+.fijiMapClass {
+    background: url(fiji_map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 275px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+.fijiMapClass p {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.fijiMapClassLinkStyle {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.fijiBookingClass {
+    background: url(fiji_booking_form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    cursor: default;
+    padding-left: 70px;
+    padding-right: 125px;
+}
+
+.fijiBookingClass h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 35px;
+    text-decoration: none !important;
+}
+
+.fijiBookingClass a: {
+    cursor: default;
+}
+
+.fijiBookingClass a:hover {
+    text-decoration: none !important;
+}
+
+.fijiBookingClass input {
+    margin-bottom: 18px;
+}
+
+.fijiBookingClass select {
+    margin-bottom: 18px;
+}
+
+.fijiBookingClass textarea {
+    margin-top: 18px;
+}
+
+.fijiBookingClass a {
+    margin-top: 25px;
+}
+
+.newInputStyle {
+    height: 44px;
+}
+
+@media (max-width: 990px) {
+    .fijiBookingClass {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+.footerNewStyle {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.circleStyleSocial {
+    background-color: #999999;
+    border-radius: 50%;
+    padding: 13px 20px;
+    color: white !important;
+    font-size: 24px;
+    margin-right: 35px;
+}
+
+.circleStyleSocial:hover {
+    color: red;
+    background-color: #df0079 !important;
+}
+
+.additionalStyle1 {
+    padding: 13px 17px !important;
+}
+
+.additionalStyle2 {
+    padding: 13px 18px !important;
+    margin-right: 0 !important;
+}
+
+.footerLinksStyle {
+    margin-top: 40px;
+}
+
+.footerLinksStyle a {
+    color: black;
+}
+
+.footerLinksStyle span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.textNewStyleFooter {
+    margin-top: 20px;
+}
+
+.hvr-fade {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+    background-color: #df0079;
+    color: white;
+}
+
+.toursListButtonsStyle:hover {
+    background-color: #b00d65 !important;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hello {
+    position: absolute;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(fiji-image-4-blur.png) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0;
+}
+
+.bg-nav-new {
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    background: #fff;
+    border: none;
+}
+
+.bg-nav-new.shrink {
+    background-color: #df0079;
+    color: #fff;
+}
+
+.bg-nav-new p {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 13px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 18px 0 22px;
+}
+
+.bg-nav-new.shrink p {
+    font-size: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 10px 0 12px;
+}
+
+.bg-nav-new .phoneNumber {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-right: 0px;
+    margin-top: 28px;
+    font-size: 18px;
+    float: right !important;
+}
+
+.bg-nav-new.shrink .phoneNumber {
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 15px;
+}
+
+@media (max-width: 460px) {
+    .bg-nav-new .phoneNumber {
+        float: none !important;
+        margin-top: 0;
+    }
+    .bg-nav-new.shrink .phoneNumber {
+        margin-top: 0;
+    }
+    .bg-nav-new p {
+        margin: 0px 0 0px;
+    }
+    .bg-nav-new.shrink p {
+        margin: 0px 0 0px;
+    }
+}
