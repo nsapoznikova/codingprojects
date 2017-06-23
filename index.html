@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fiji Island</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="cssstyles.css" rel="stylesheet">
+    <link href="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700&effect=destruction' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#click").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+
+    $(document).ready(function() {
+        $("#click2").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click3").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click4").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+
+    $(document).ready(function() {
+        $("#click5").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click6").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click7").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+
+    $(document).ready(function() {
+        $("#click8").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click9").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click10").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+
+    $(document).ready(function() {
+        $("#click11").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click12").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+
+    $(document).ready(function() {
+        $("#click13").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#div1").offset().top
+            }, 800);
+        });
+    });
+    </script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script>
+    function showImages(el) {
+        var windowHeight = jQuery(window).height();
+        $(el).each(function() {
+            var thisPos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow + windowHeight - 280 > thisPos) {
+                $(this).addClass("fadeIn");
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        showImages('.rowNewStyle');
+    });
+
+    $(window).scroll(function() {
+        showImages('.rowNewStyle');
+    });
+
+
+    $(document).ready(function() {
+        showImages('.mainSlaiderContainer');
+    });
+
+    $(window).scroll(function() {
+        showImages('.mainSlaiderContainer');
+    });
+
+    $(document).ready(function() {
+        showImages('.slideNewEffectAppearing');
+    });
+
+    $(window).scroll(function() {
+        showImages('.slideNewEffectAppearing');
+    });
+    </script>
+    <style>
+    .rowNewStyle {
+        visibility: hidden;
+    }
+    
+    .mainSlaiderContainer {
+        visibility: hidden;
+    }
+    
+    .slideNewEffectAppearing {
+        visibility: hidden;
+    }
+    
+    .fadeIn {
+        -webkit-animation: animat_show 0.8s;
+        animation: animat_show 0.8s;
+        visibility: visible !important;
+    }
+    
+    @-webkit-keyframes animat_show {
+        0% {
+            opacity: 0
+        }
+        100% {
+            opacity: 1
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top bg-nav-new">
+        <div class="container mainHeader">
+            <div class="navbar-header headerNewStyle">
+                <p class="logoClass">Travel Logo</p>
+            </div>
+            <div class="navbar-right phoneNumber">
+                +679 455 454 34
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron fijiBg">
+        <div class="container">
+            <div id="hello" class="hello">
+                <h1 class="slideNewEffectAppearing">Fiji Island</h1>
+                <p class="slideNewEffectAppearing">Welcome to Fiji Island. Enjoy your time on this beautiful island with our unique adventures. Explore the island using our diverse and overwhelming tours
+                </p>
+                <p class="slideNewEffectAppearing"><a id="click" class="btn btn-primary btn-lg buttonNewStyle hvr-fade" href="#" role="button">Book Tour</a></p>
+            </div>
+            <div id="overlay" class="overlay"></div>
+        </div>
+    </div>
+    <div class="container containerNewStyle">
+        <div class="row rowNewStyle">
+            <div class="col-md-4 colNewStyle">
+                <img class="hvr-grow" src="sea-bottom.png" alt="Icon 1">
+                <h2>Explore Underwater Life</h2>
+                <p>On Fiji Island you can enjoy a lot of different activities related with Underwater Life. Fiji has a very rich Underwater Life.</p>
+            </div>
+            <div class="col-md-4 colNewStyle">
+                <img class="hvr-grow" src="beach.png" alt="Icon 1">
+                <h2>Enjoy Nice Beaches</h2>
+                <p>On Fiji Island you can enjoy best beaches with a lot of sunny days and get relaxed in the best way.</p>
+            </div>
+            <div class="col-md-4 colNewStyle">
+                <img class="hvr-grow" src="boat.png" alt="Icon 1">
+                <h2>Enjoy Water Activities</h2>
+                <p>Fiji Island offers a lot of different kind of water activities from kayaking to thermal mud pools.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mainSlaiderContainer">
+        <div class="container sliderContainerNewStyle">
+            <h1 class="toursHeadingStyle">Our Tours</h1>
+            <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <ul class="thumbnails">
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Snorkeling Tour</h4>
+                                        <p>$105.55</p>
+                                        <a id="click2" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Sea Kayaking</h4>
+                                        <p>$80.60</p>
+                                        <a id="click3" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Waterfall Swimming</h4>
+                                        <p>$45.30</p>
+                                        <a id="click4" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Thermal Mud Pool</h4>
+                                        <p>55.40</p>
+                                        <a id="click5" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul class="thumbnails">
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-5.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Nadi Town Sightseeing</h4>
+                                        <p>$120.35</p>
+                                        <a id="click6" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-6.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Spa Tour</h4>
+                                        <p>$80.60</p>
+                                        <a id="click7" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-7.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Crab Hiking</h4>
+                                        <p>$58.40</p>
+                                        <a id="click8" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-8.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Mana Island</h4>
+                                        <p>$40.60</p>
+                                        <a id="click9" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul class="thumbnails">
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-9.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Surfing</h4>
+                                        <p>$65.30</p>
+                                        <a id="click10" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-10.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Nukubati Island</h4>
+                                        <p>$45.90</p>
+                                        <a id="click11" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-11.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Rabi Island</h4>
+                                        <p>$150.25</p>
+                                        <a id="click12" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="fff newFffStyle">
+                                    <div class="thumbnail">
+                                        <a class="hvr-grow" href="#"><img src="tour-photo-12.jpg" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                        <h4>Praesent commodo</h4>
+                                        <p>$45.30</p>
+                                        <a id="click13" class="btn btn-mini toursListButtonsStyle hvr-fade" href="#">Book Tour</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="control-box pager">
+                        <li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                        <li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 fijiMapClass">
+        <p>72 Batiki Street, Nadi, Fiji</p>
+        <p>+679 23423 434 434</p>
+        <a class="fijiMapClassLinkStyle" href="mailto:fiji-tours@company.com">fiji-tours@company.com</a>
+    </div>
+    <div id="div1" class="col-md-6 fijiBookingClass">
+        <h2>Make Booking</h2>
+        <input type="text" class="form-control newInputStyle" placeholder="Name">
+        <input type="text" class="form-control newInputStyle" placeholder="Email">
+        <input type="text" class="form-control newInputStyle" placeholder="Phone Number">
+        <select class="form-control newInputStyle">
+            <option selected="selected" value="volvo">Select Tour</option>
+            <option value="volvo">Snorkeling Tour</option>
+            <option value="volvo">Sea Kayaking</option>
+            <option value="volvo">Waterfall Swimming</option>
+            <option value="volvo">Thermal Mud Pool</option>
+            <option value="volvo">Nadi Town Sightseeing</option>
+            <option value="volvo">Spa Tour</option>
+            <option value="volvo">Crab Hiking</option>
+            <option value="volvo">Mana Island</option>
+            <option value="volvo">Surfing</option>
+            <option value="volvo">Nukubati Island</option>
+            <option value="volvo">Rabi Island</option>
+            <option value="volvo">Praesent commodo</option>
+        </select>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker1'>
+                <input type='text' class="form-control newInputStyle" />
+                <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+        <textarea class="form-control newInputStyle" rows="3"></textarea>
+        <a href="#" class="btn btn-primary btn-lg active buttonNewStyle hvr-fade" role="button">Book Tour</a>
+    </div>
+    <div class="col-md-12 footerNewStyle">
+        <a class="circleStyleSocial hvr-fade" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="circleStyleSocial additionalStyle1 hvr-fade" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="circleStyleSocial additionalStyle2 hvr-fade" href="#"><i class="fa fa-instagram"></i></a>
+        <div class="footerLinksStyle">
+            <a href="#">PRIVACY</a><span>|</span>
+            <a href="#">TERMS AND CONDITIONS</a><span>|</span>
+            <a href="#">FAQ'S</a>
+        </div>
+        <p class="textNewStyleFooter">Fiji Island Inc. ©2017. All Right Reserved.</p>
+    </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+    <script src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#datetimepicker1').datetimepicker();
+    });
+    </script>
+    <script>
+
+    $(function() {
+        var shrinkHeader = 600;
+        $(window).scroll(function() {
+            var scroll = getCurrentScroll();
+            if (scroll >= shrinkHeader) {
+                $('.bg-nav-new').addClass('shrink');
+            } else {
+                $('.bg-nav-new').removeClass('shrink');
+            }
+        });
+
+        function getCurrentScroll() {
+            return window.pageYOffset || document.documentElement.scrollTop;
+        }
+    });
+
+
+    $(document).ready(function() {
+        $('.carousel').carousel({
+            interval: 6000
+        })
+    });
+    </script>
+    <script>
+    (function() {
+        'user strict';
+        var hello = document.getElementById('hello'),
+            blur = document.getElementById('overlay'),
+            windowHeight = window.innerHeight,
+            isScroll = false;
+
+        var latestScroll = 0;
+        var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+
+        window.requestAnimationFrame = requestAnimationFrame;
+
+        var init = function() {
+            window.addEventListener('scroll', function() {
+                latestScroll = window.scrollY;
+                checkScroll();
+            }, false);
+        }
+
+        var checkScroll = function() {
+            if (!isScroll) {
+                window.requestAnimationFrame(update);
+            }
+            isScroll = true;
+        }
+
+        var update = function() {
+            currentScroll = latestScroll;
+            isScroll = false;
+            var helloScroll = currentScroll / 4,
+                blurScroll = currentScroll * 2;
+
+            //hello.style.transform = 'translate3d(0, ' + helloScroll + 'px, 0)';
+            blur.style.opacity = (blurScroll / windowHeight - .1).toFixed(2);
+            if (blur.style.opacity >= 1) {
+                blur.style.opacity = 1;
+            }
+        }
+
+        init();
+    })();
+    </script>
+</body>
+
+</html>
