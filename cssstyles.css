@@ -482,10 +482,10 @@ li {
 
 
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Glyphicons Halflings' !important;
 
-  src: url('https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url("https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.eot") !important;
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format('embedded-opentype'), url("https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.woff2") format('woff2'), url("https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.woff") format('woff'), url("https://nsapoznikova.github.io/codingprojects/fonts/glyphicons-halflings-regular.ttf") format('truetype'), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg') !important;
 }
 
 
